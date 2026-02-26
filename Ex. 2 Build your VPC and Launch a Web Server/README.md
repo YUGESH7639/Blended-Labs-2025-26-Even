@@ -1,4 +1,4 @@
-# Build Your VPC and Launch a Web Server (AWS) 
+<img width="1369" height="603" alt="image" src="https://github.com/user-attachments/assets/dc3778c0-3cc6-48fb-baac-9e7c02267007" /># Build Your VPC and Launch a Web Server (AWS) 
 
 ## Author
 
@@ -124,7 +124,8 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 ### Screenshot 3: Web Server Output in Browser
 
 
-<img width="1917" height="1085" alt="LAB 2 3" src="https://github.com/user-attachments/assets/7c2b6f29-cf17-4b51-9644-51646d418427" />
+<img width="1369" height="603" alt="image" src="https://github.com/user-attachments/assets/c040eadd-a394-4876-bb93-9497074cfb6f" />
+
 
 
 ---
