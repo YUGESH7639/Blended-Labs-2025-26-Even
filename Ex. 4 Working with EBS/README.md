@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**:  YUGESH M
+* **Register Number**: 212224040376
+* **Date of Submission**: 28-02-2026
 
 ---
 
@@ -78,13 +78,19 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1. First, I logged in to the AWS Management Console and opened the Amazon EC2 dashboard. Then I navigated to the Elastic Block Store section to view the available volume types.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+2. I created a new EBS volume by selecting the required volume type (gp3) and specifying the storage size. I ensured that the volume was created in the same Availability Zone as my existing EC2 instance.
+
+3. After the volume was created, I selected the volume and attached it to my running EC2 instance as an additional device (for example, /dev/xvdf).
+
+4. I connected to the EC2 instance using SSH. Then I checked the attached device using the lsblk command and formatted the new volume using the ext4 file system.
+
+5. I created a directory (for example, /mnt/ebs) and mounted the formatted volume to that directory using the mount command.
+
+6. Inside the mounted directory, I created sample files and folders to store data and verified that the files were saved successfully.
+
+7. Finally, I rebooted the EC2 instance and checked the mounted volume again to confirm that the stored data was still available, proving that EBS provides persistent storage.
 
 ---
 
@@ -92,19 +98,22 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
+<img width="1919" height="1042" alt="Screenshot 2026-02-28 140439" src="https://github.com/user-attachments/assets/a03b69a0-bb69-4b2b-9552-50b9c6b39994" />
+
 
 ---
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
+<img width="1906" height="1068" alt="Screenshot 2026-02-28 140540" src="https://github.com/user-attachments/assets/e3f75911-d3e1-403e-8887-30a5a21caeaf" />
+
 
 ---
 
 ### Screenshot 3: Mounted Volume with Data
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="Screenshot (153)" src="https://github.com/user-attachments/assets/fdeed2ff-921d-4f13-affc-afb3f6e7de2f" />
+
 
 ---
 
